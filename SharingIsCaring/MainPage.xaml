@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SharingIsCaring;assembly:SharginIsCaring" 
+             x:Class="SharingIsCaring.MainPage"
+             Title="Sharing is Caring">
+    <StackLayout Orientation="Vertical">
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Button Text="Share img" Command="{Binding BtnClickCommand}" CommandParameter="Lombre.png" />
+        <Button Text="Share HTML" Command="{Binding BtnClickCommand}" CommandParameter="testHTML.html" />
+         <Button Text="Share PDF" Command="{Binding BtnClickCommand}" CommandParameter="testPDF.pdf" />
+    </StackLayout>
+</ContentPage>
