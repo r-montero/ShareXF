@@ -8,7 +8,7 @@
         <!-- Place new controls here -->
         <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
         <Button Text="Share img" Command="{Binding BtnClickCommand}" CommandParameter="Lombre.png" />
-        <Button Text="Share HTML" Command="{Binding BtnClickCommand}" CommandParameter="testHTML.html" />
-         <Button Text="Share PDF" Command="{Binding BtnClickCommand}" CommandParameter="testPDF.pdf" />
+        <Button Text="Share HTML" Command="{Binding BtnClickCommand}" CommandParameter="test.html" />
+         <Button Text="Share PDF" Command="{Binding BtnClickCommand}" CommandParameter="test.pdf" />
     </StackLayout>
 </ContentPage>

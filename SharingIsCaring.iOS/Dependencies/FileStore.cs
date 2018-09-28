@@ -1,4 +1,5 @@
 ﻿using System;
+using Foundation;
 using SharingIsCaring.Dependencies;
 
 namespace SharingIsCaring.iOS.Dependencies
@@ -7,7 +8,7 @@ namespace SharingIsCaring.iOS.Dependencies
     {
         public string GetFilePath(string fileName)
         {
-            return "Files/"+fileName;
+            return fileName;
         }
     }
 }

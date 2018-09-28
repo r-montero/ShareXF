@@ -29,6 +29,7 @@ namespace SharingIsCaring.iOS
             //Dependencies
             DependencyService.Register<FileStore>();
             DependencyService.Register<Share>();
+            //DependencyService.Register<PdfSave>();
 
             LoadApplication(new App());
 

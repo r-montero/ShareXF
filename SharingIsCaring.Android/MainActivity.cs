@@ -1,15 +1,10 @@
-﻿using System;
-
+﻿
+using System.IO;
 using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
-using Xamarin.Forms;
 using SharingIsCaring.Droid.Dependencies;
-using Android.Content.Res;
-using System.IO;
+using Xamarin.Forms;
 
 namespace SharingIsCaring.Droid
 {
@@ -20,14 +15,13 @@ namespace SharingIsCaring.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
-
+            
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
 
             SaveFilesFromAssets("Lombre.png");
             SaveFile("testHTML.html");
             SaveFile("testPDF.pdf");
-            //SaveFilesFromAssets("testPDF.pdf");
             LoadDependencies();
 
             LoadApplication(new App());
