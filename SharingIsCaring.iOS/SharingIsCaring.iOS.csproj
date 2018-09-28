@@ -159,11 +159,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dependencies\" />
-    <Folder Include="Files\" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Lombre.png" />
-    <BundleResource Include="Resources\test.html" />
-    <BundleResource Include="Resources\test.pdf" />
+    <BundleResource Include="Lombre.png" />
+    <BundleResource Include="test.html" />
+    <BundleResource Include="test.pdf" />
   </ItemGroup>
 </Project>
